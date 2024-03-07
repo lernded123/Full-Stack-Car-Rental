@@ -11,7 +11,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #fe5b3d;
+  --main-color: #e7222e;
   --second-color: #ffac38;
   --text-color: #444;
   --gradient: linear-gradient(#fe5b3d, #ffac38);
@@ -87,7 +87,7 @@ header {
   border-radius: 0.5rem;
 }
 .header-btn .sign-in:hover {
-  background: var(--main-color);
+  background: #e7222e;
 }
 .home {
   width: 100%;
@@ -161,7 +161,7 @@ header {
   font-weight: 500;
 }
 .form-container form .btn:hover {
-  background: var(--main-color);
+  background: #e7222e;
 }
 .heading {
   text-align: center;
@@ -193,7 +193,7 @@ header {
   padding: 10px;
   background: #eeeff1;
   border-radius: 0.5rem;
-  color: var(--main-color);
+  color: #e7222e;
 }
 .ride-container .box h2 {
   font-size: 1.3rem;
@@ -260,7 +260,7 @@ header {
   border-radius: 0.5rem;
 }
 .services-container .box .btn:hover {
-  background: var(--main-color);
+  background: #e7222e;
 }
 .about-container {
   display: grid;
@@ -289,6 +289,10 @@ header {
 }
 .about-text .btn:hover {
   background: var(--main-color);
+}
+
+#reviews {
+  /* background-color: #38a0f5; */
 }
 .reviews-container {
   display: grid;
